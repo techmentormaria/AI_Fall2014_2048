@@ -1,10 +1,6 @@
 AI_Fall2014-2048
 ================
 
-mh3478 - Maria Hollweck - Artificial Intelligence - HW2
-
-
-
 (1) Alpha Beta - Pruning for the Player - Random Inserts for the Computer
 I was interested in finding out how far I can come with a depth = 0 and also with the depth > 0. Here my results.
 
@@ -28,14 +24,7 @@ My Heuristics for this contained the following methods:
 - is the highest tile in a corner? weighted 1
 - do we have a good order? weighted with 1
 
-
 (2) Random Inserts for Player - Alpha Beta Implementation for the Computer
 I used my alpha-beta-pruning algorithm and started with the cells (min) instead of with the tiles (max). My depth is 2.
 I just tested my ComputerAI in combination with my best PlayerAI and got to 256 and 128.
 
-(3) My customized files are:
-	- Grid.py: I customized the Grid.py and added extra methods (marked with "MH3478 EDIT" and "MH3478 END")
-	- Heuristic.py 
-	- AlphaBetaPruning.py
-	- PlayerAI.py
-	- ComputerAI.py
